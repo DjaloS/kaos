@@ -2,10 +2,10 @@ package main
 
 import (
 	"flag"
-	clientset "github.com/arnaudmz/kaos/pkg/client/clientset/versioned"
-	informers "github.com/arnaudmz/kaos/pkg/client/informers/externalversions"
-	"github.com/arnaudmz/kaos/pkg/metrics"
-	"github.com/arnaudmz/kaos/pkg/signals"
+	clientset "github.com/DjaloS/kaos/pkg/client/clientset/versioned"
+	informers "github.com/DjaloS/kaos/pkg/client/informers/externalversions"
+	"github.com/DjaloS/kaos/pkg/metrics"
+	"github.com/DjaloS/kaos/pkg/signals"
 	"github.com/golang/glog"
 	"github.com/prometheus/client_golang/prometheus"
 	"github.com/prometheus/client_golang/prometheus/promhttp"
