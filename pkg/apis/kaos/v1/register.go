@@ -5,7 +5,7 @@ import (
 	"k8s.io/apimachinery/pkg/runtime"
 	"k8s.io/apimachinery/pkg/runtime/schema"
 
-	kaos "github.com/arnaudmz/kaos/pkg/apis/kaos"
+	kaos "github.com/DjaloS/kaos/pkg/apis/kaos"
 )
 
 // SchemeGroupVersion is group version used to register these objects
