@@ -36,11 +36,11 @@ import (
 	"k8s.io/client-go/util/workqueue"
 	api "k8s.io/kubernetes/pkg/apis/core"
 
-	kaosv1 "github.com/arnaudmz/kaos/pkg/apis/kaos/v1"
-	clientset "github.com/arnaudmz/kaos/pkg/client/clientset/versioned"
-	kaosscheme "github.com/arnaudmz/kaos/pkg/client/clientset/versioned/scheme"
-	informers "github.com/arnaudmz/kaos/pkg/client/informers/externalversions"
-	listers "github.com/arnaudmz/kaos/pkg/client/listers/kaos/v1"
+	kaosv1 "github.com/DjaloS/kaos/pkg/apis/kaos/v1"
+	clientset "github.com/DjaloS/kaos/pkg/client/clientset/versioned"
+	kaosscheme "github.com/DjaloS/kaos/pkg/client/clientset/versioned/scheme"
+	informers "github.com/DjaloS/kaos/pkg/client/informers/externalversions"
+	listers "github.com/DjaloS/kaos/pkg/client/listers/kaos/v1"
 	"github.com/robfig/cron"
 )
 
