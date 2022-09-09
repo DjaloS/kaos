@@ -16,7 +16,7 @@ limitations under the License.
 package scheme
 
 import (
-	kaosv1 "github.com/arnaudmz/kaos/pkg/apis/kaos/v1"
+	kaosv1 "github.com/DjaloS/kaos/pkg/apis/kaos/v1"
 	v1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	runtime "k8s.io/apimachinery/pkg/runtime"
 	schema "k8s.io/apimachinery/pkg/runtime/schema"
