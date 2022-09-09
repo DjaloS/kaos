@@ -16,9 +16,9 @@ limitations under the License.
 package fake
 
 import (
-	clientset "github.com/arnaudmz/kaos/pkg/client/clientset/versioned"
-	kaosv1 "github.com/arnaudmz/kaos/pkg/client/clientset/versioned/typed/kaos/v1"
-	fakekaosv1 "github.com/arnaudmz/kaos/pkg/client/clientset/versioned/typed/kaos/v1/fake"
+	clientset "github.com/DjaloS/kaos/pkg/client/clientset/versioned"
+	kaosv1 "github.com/DjaloS/kaos/pkg/client/clientset/versioned/typed/kaos/v1"
+	fakekaosv1 "github.com/DjaloS/kaos/pkg/client/clientset/versioned/typed/kaos/v1/fake"
 	"k8s.io/apimachinery/pkg/runtime"
 	"k8s.io/apimachinery/pkg/watch"
 	"k8s.io/client-go/discovery"
