@@ -23,9 +23,9 @@ import (
 	sync "sync"
 	time "time"
 
-	versioned "github.com/arnaudmz/kaos/pkg/client/clientset/versioned"
-	internalinterfaces "github.com/arnaudmz/kaos/pkg/client/informers/externalversions/internalinterfaces"
-	kaos "github.com/arnaudmz/kaos/pkg/client/informers/externalversions/kaos"
+	versioned "github.com/DjaloS/kaos/pkg/client/clientset/versioned"
+	internalinterfaces "github.com/DjaloS/kaos/pkg/client/informers/externalversions/internalinterfaces"
+	kaos "github.com/DjaloS/kaos/pkg/client/informers/externalversions/kaos"
 	v1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	runtime "k8s.io/apimachinery/pkg/runtime"
 	schema "k8s.io/apimachinery/pkg/runtime/schema"
