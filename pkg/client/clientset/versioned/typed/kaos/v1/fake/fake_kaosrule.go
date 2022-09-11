@@ -16,7 +16,7 @@ limitations under the License.
 package fake
 
 import (
-	kaos_v1 "github.com/arnaudmz/kaos/pkg/apis/kaos/v1"
+	kaos_v1 "github.com/DjaloS/kaos/pkg/apis/kaos/v1"
 	v1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	labels "k8s.io/apimachinery/pkg/labels"
 	schema "k8s.io/apimachinery/pkg/runtime/schema"
