@@ -16,7 +16,7 @@ limitations under the License.
 package fake
 
 import (
-	v1 "github.com/arnaudmz/kaos/pkg/client/clientset/versioned/typed/kaos/v1"
+	v1 "github.com/DjaloS/kaos/pkg/client/clientset/versioned/typed/kaos/v1"
 	rest "k8s.io/client-go/rest"
 	testing "k8s.io/client-go/testing"
 )
