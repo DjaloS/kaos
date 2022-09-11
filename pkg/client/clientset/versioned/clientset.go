@@ -16,7 +16,7 @@ limitations under the License.
 package versioned
 
 import (
-	kaosv1 "github.com/arnaudmz/kaos/pkg/client/clientset/versioned/typed/kaos/v1"
+	kaosv1 "github.com/DjaloS/kaos/pkg/client/clientset/versioned/typed/kaos/v1"
 	glog "github.com/golang/glog"
 	discovery "k8s.io/client-go/discovery"
 	rest "k8s.io/client-go/rest"
