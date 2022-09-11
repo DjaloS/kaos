@@ -1,4 +1,4 @@
-package: github.com/arnaudmz/kaos
+package: github.com/DjaloS/kaos
 import:
 - package: github.com/golang/glog
 - package: k8s.io/client-go
