@@ -19,7 +19,7 @@ limitations under the License.
 package kaos
 
 import (
-	internalinterfaces "github.com/arnaudmz/kaos/pkg/client/informers/externalversions/internalinterfaces"
+	internalinterfaces "github.com/DjaloS/kaos/pkg/client/informers/externalversions/internalinterfaces"
 	v1 "github.com/arnaudmz/kaos/pkg/client/informers/externalversions/kaos/v1"
 )
 
