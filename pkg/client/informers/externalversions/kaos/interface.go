@@ -20,7 +20,7 @@ package kaos
 
 import (
 	internalinterfaces "github.com/DjaloS/kaos/pkg/client/informers/externalversions/internalinterfaces"
-	v1 "github.com/arnaudmz/kaos/pkg/client/informers/externalversions/kaos/v1"
+	v1 "github.com/DjaloS/kaos/pkg/client/informers/externalversions/kaos/v1"
 )
 
 // Interface provides access to each of this group's versions.
